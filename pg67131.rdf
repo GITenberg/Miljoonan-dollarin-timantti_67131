@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
+>
+  <pgterms:ebook rdf:about="ebooks/67131">
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-01-09</dcterms:issued>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/1761">
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/J._S._Fletcher"/>
+        <pgterms:name>Fletcher, J. S. (Joseph Smith)</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1863</pgterms:birthdate>
+        <pgterms:alias>Fletcher, Joseph Smith</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1935</pgterms:deathdate>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/67131/67131-0.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/67131"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250007</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-09T13:16:48</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfb35151b60844ac08e2ea48c3ec913a8">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</pgterms:downloads>
+    <dcterms:license rdf:resource="license"/>
+    <marcrel:trl>
+      <pgterms:agent rdf:about="2009/agents/46070">
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1872</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1939</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="https://fi.wikipedia.org/wiki/Valfrid_Hedman"/>
+        <pgterms:name>Hedman, Valfrid</pgterms:name>
+      </pgterms:agent>
+    </marcrel:trl>
+    <pgterms:marc508>Tapio Riikonen</pgterms:marc508>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <pgterms:marc260>Finland :Arvi A. Karisto Oy,1924.</pgterms:marc260>
+    <dcterms:title>Miljoonan dollarin timantti</dcterms:title>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:marc907>FI</pgterms:marc907>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/67131/67131-0.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/67131"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93430</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N75aaa216ecd647bfb54c34eea4027034">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-09T13:16:50</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Necd04f4a98d84defb6703b711d6e0c8a">
+            <rdf:value>application/octet-stream</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:marc905>20211218092559fletcher</pgterms:marc905>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nf939dd445da84f9d9184c2cc246b93a8">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">fi</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <pgterms:marc906>1924</pgterms:marc906>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="https://fi.wikipedia.org/wiki/Valfrid_Hedman">
+    <dcterms:description>fi.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/J._S._Fletcher">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>
